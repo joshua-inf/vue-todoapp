@@ -1,13 +1,15 @@
 <script setup>
 import Comp from './conponent/Comp.vue'
+import image from './images/3d-clipboard-.jpg'
 
 </script>
 
 <template>
   <main>
     <section>
-      <Comp/>
-      <div>hello</div>
+      <div class="conts">
+        <Comp/>
+      </div>
     </section>
   </main>
 </template>

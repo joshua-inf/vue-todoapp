@@ -3,7 +3,7 @@
         <div class="col-1"></div>
         <div class="col-10">
                 <div class="listss" @click="clickbtn(names.key)" v-for="names in name" :key="names.key">
-                    <div class="border btn btn-outline-secondary w-100 m-1 p-4">
+                    <div class="border btn btn-outline-light w-100 m-1 p-4">
                         <div>
                         {{ names.content }}
                         </div>
